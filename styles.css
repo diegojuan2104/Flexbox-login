@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+.login-form {
+  height: 100vh;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form .box {
+  min-width: 400px;
+  min-height: 450px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #cccccc;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.login-form .box .img img {
+  width: 5rem;
+  display: block;
+  margin: auto;
+}
+
+.login-form .box .heading h4 {
+  color: #000;
+  font-size: 22px;
+  text-align: left;
+  margin: 15px 0px 10px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+}
+
+.login-form .box .form-fields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form .box .form-fields .input-box {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.login-form .box .form-fields .input-box .form-control {
+  height: 40px;
+  padding: 0px 0px 0px 45px;
+  color: #444444;
+  border: 1px solid #cccccc;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.login-form .box .form-fields .button-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-form .box .form-fields .button-box button {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 35px;
+  background-color: #000;
+  transition: box-shadow 0.5s ease;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.login-form .box .form-fields .button-box button:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+  cursor: pointer;
+}
+
+.login-form .box .form-fields .button-box a {
+    font-size: 14px;
+    color: #152686;
+}
+
+.login-form .box .form-fields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .box .social-links p{
+    text-align: center;
+    color: rgb(107, 101, 101);
+    font-size: 14px;
+    margin: 15px;
+    
+}
+
+.login-form .box .social-links .links-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.login-form .box .social-links .links-box img{
+    height: 3rem;
+}
+
+.login-form .box .social-links .links-box img:hover{
+    height: 3.1rem;
+}
